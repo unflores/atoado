@@ -5,6 +5,7 @@
       %ul
         - @list.errors.full_messages.each do |msg|
           %li= msg
-
+  = f.label :name, "Name:"
+  = f.text_field :name
   .actions
     = f.submit 'Save'

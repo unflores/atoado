@@ -6,7 +6,7 @@ Listy::Application.routes.draw do
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
-  root :to => "lists"
+  root :to => "lists#index"
 
 
   # Sample of regular route:
