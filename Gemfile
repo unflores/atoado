@@ -3,6 +3,9 @@ gem 'devise', '1.3.4'
 gem 'rails',  '3.0.8'
 gem 'haml'
 gem 'haml-rails'
+gem 'sass'
+gem 'heroku'
+
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 

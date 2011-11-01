@@ -54,3 +54,13 @@ div.field, div.actions {
   font-size: 12px;
   list-style: square;
 }
+.list {
+  width: 500px;
+}
+.list li {
+  margin: 5px;
+  padding: 5px;
+  background: #EEE;
+  border: solid 3px #888;
+  -webkit-border-radius: 5px;
+}

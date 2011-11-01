@@ -13,7 +13,7 @@ class ListsController < ApplicationController
   # GET /lists/1
   # GET /lists/1.xml
   def show
-    @list = List.find(params[:id])
+    @list = List.find(params[:id], :include => :list_items)
 
     respond_to do |format|
       format.html # show.html.erb

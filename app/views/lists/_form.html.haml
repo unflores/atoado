@@ -7,5 +7,9 @@
           %li= msg
   = f.label :name, "Name:"
   = f.text_field :name
+  %ul.list
+    = f.fields_for :list_items do |item_fields|
+      %li.item
+        = item_fields.text_field :description
   .actions
     = f.submit 'Save'

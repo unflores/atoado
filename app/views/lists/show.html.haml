@@ -1,7 +1,7 @@
 %h2= @list.name
 
 - unless @list.list_items.empty?
-  %ul
+  %ul.list
     - @list.list_items.each do |item|
       %li= item.description
 
